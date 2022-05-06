@@ -1,0 +1,73 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+:root {
+    --colorfondo: #000033;
+    --color1: #ffffff;
+    --color2: #ff8800;
+    --color3: #111ced;
+}
+
+body {
+    background-image: radial-gradient(circle at 42.63% 91.78%, #004eb2 0, #004cb5 6.25%, #0048b7 12.5%, #0044b6 18.75%, #003eb3 25%, #0037ae 31.25%, #022ea7 37.5%, #41229e 43.75%, #5c0f93 50%, #6f0087 56.25%, #7e007a 62.5%, #89006c 68.75%, #91005d 75%, #97004f 81.25%, #9a0040 87.5%, #9b0032 93.75%, #9b0024 100%);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 90%;
+    display: block;
+    margin: auto;
+}
+h1 {
+    text-align: center;
+    margin: 1.5rem 0 .5rem;
+    color: var(--color1);
+}
+p {
+    margin-bottom: 2rem;
+    color: var(--color1);
+}
+
+p>a {
+    font-weight: bold;
+    color: var(--color2);
+}
+#formularios {
+    background-color: var(--color1);
+    border-radius:1rem;
+    padding: 2rem;
+}
+#formularios legend {
+    color: var(--color3);
+    font-weight: bold;
+}
+
+#formularios fieldset {
+    margin-bottom: 1rem;
+    padding: 20px;
+    border-color: var(--color3) ;
+    border-radius: 5px;
+}
+#formularios label{
+    color: var(--color3);
+    margin: 10px;
+}
+
+#formularios h2 {
+    margin-bottom: 1rem;
+    color: var(--color3);
+}
+
+input {
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid var(--color3);
+}
+
+select {
+    margin: 3px;
+    padding: 3px;
+    border: 1px solid var(--color3);
+}
+

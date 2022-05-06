@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Proyectos P. UDEMY</title>
+</head>
+<body>
+    <h1>Proyectos</h1>
+    <p>Los siguientes proyectos están hechos con fines educativos, aprendidos dentro del curso de <a href="https://www.udemy.com/course/aprende-javascript-es9-html-css3-y-nodejs-desde-cero/">Aprende Javascript ES9, HTML, CSS3 y NodeJS desde cero.</a> elaborados por Allans Mejía Velásquez.</p>
+    <section class="section" id="formularios">
+        <h2>Formulario</h2>
+        <form>
+            <fieldset>
+                <legend>Datos personales</legend>
+                <label>Nombre:</label>
+                <input type="text">
+                <label>Edad:</label>
+                <input type="number"> <br>
+                <label >DPI</label>
+                <input type="number">
+                <label >Email:</label>
+                <input type="email">
+                <label>Género:</label>
+                <select>
+                    <option value="NoGenero">--Elige un genero</option>
+                    <option value="Masculino">Masculino</option>
+                    <option value="Femenino">Femenino</option>
+                </select> <br>
+                <label>Fecha de nacimiento</label>
+                <input type="date">
+            </fieldset>
+            <fieldset>
+                <legend>Datos Academicos</legend>
+                <label>Diversificado:</label>
+                <select>
+                    <option value="NoEstudios">--Elige un establecimiento</option>
+                    <option value="Colegio Rosario">Colegio Rosario</option>
+                    <option value="Colegio Utatlan">Colegio Utatlan</option>
+                    <option value="Colegio Sinaía">Colegio La Patria</option>
+                    <option value="Colegio San Francisco Javier">Colegio San Francisco Javier</option>
+                </select> <br>
+                <label >Nivel Superior:</label>
+                <select>
+                    <option value="NoEstudios">--Elige una Universidad</option>
+                    <option value="USAC">Universidad de San Carlos de Guatemala</option>
+                    <option value="UMG">Universidad Mariano Galvez</option>
+                    <option value="URL">Universidad Rafael Landivar</option>
+                </select>
+            </fieldset>
+            <fieldset>
+                <legend>Datos complementarios:</legend>
+                <label>Domicilio:</label>
+                <input type="text">
+                <label >Mascota:</label>
+                <select >
+                    <option value="NoMoscatos">--Elige tu mascota</option>
+                    <option value="perro">perro</option>
+                    <option value="gato">gato</option>
+                    <option value="caballo">caballo</option>
+                    <option value="No">No tengo, apenas como yo</option>
+                </select> 
+                <label >Color favorito:</label>
+                <input type="color">
+            </fieldset>
+            <input id="enviar "type="submit">
+        </form>
+    </section>
+</body>
+</html>
